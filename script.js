@@ -79,8 +79,7 @@ for(var i=0 ; i<operator.length ; i++)
                     printHistory(history);
                     printOutput("");
                 }
-            }
-        }
+            }}
        })
 }
 var number = document.getElementsByClassName("number");
@@ -95,3 +94,16 @@ for(var i=0 ; i<number.length ; i++)
         } 
     })
 }
+
+// var coll = document.getElementsByClassName("collapse-header");
+// for (var i = 0; i < coll.length; i++) {
+//   coll[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var content = document.getElementsByClassName("collapse-content")[0];
+//     if (content.style.display === "block") {
+//       content.style.display = "none";
+//     } else {
+//       content.style.display = "block";
+//     }
+//   });
+// }
